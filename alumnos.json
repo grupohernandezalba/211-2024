@@ -187,7 +187,7 @@
         "nombre" : "Ricardo",
         "apellidos" : "Islas Ramirez",
          "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/ricardo.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
