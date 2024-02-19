@@ -50,7 +50,7 @@
     {
         "nombre" : "Josafat Francisco",
         "apellidos" : "Aguirre Saldaña",
-         "participaciones" : 1,
+         "participaciones" : 2,
         "practicas" : 2,
         "foto" : "imagenes/josafat.png",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
@@ -98,7 +98,7 @@
     {
         "nombre" : "Jose Gael",
         "apellidos" : "Ibarra Sanchez",
-         "participaciones" : 2, 
+         "participaciones" : 1, 
         "practicas" : 1,
         "foto" : "imagenes/jose-gael.webp",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
@@ -106,7 +106,7 @@
     {
         "nombre" : "Angel Alejandro",
         "apellidos" : "Becerra Rojas",
-         "participaciones" : 0,
+         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/angel-alejandro.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
@@ -234,7 +234,7 @@
     {
         "nombre" : "Abraham",
         "apellidos" : "Rodríguez Contreras",
-         "participaciones" : 1,
+         "participaciones" : 2,
         "practicas" : 2,
         "foto" : "imagenes/abraham.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
@@ -242,7 +242,7 @@
     {
         "nombre" : "Jairo Miguel",
         "apellidos" : "Alvarado Gonzalez",
-         "participaciones" : 0,
+         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/jairo.webp",
         "equipo" : "DelBosque"
