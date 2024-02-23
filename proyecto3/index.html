@@ -33,7 +33,12 @@
         let boton = document.getElementById("boton");
         boton.addEventListener("click", function() {
             let imagen = document.getElementById("imagen");
-            imagen.style.display = "none";
+            if(imagen.style.display == "none") {
+                imagen.style.display = "block";
+            }
+            else {
+                imagen.style.display = "none";
+            }
         });
 
         let numero = 100;
