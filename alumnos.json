@@ -42,7 +42,7 @@
     {
         "nombre" : "Mariana",
         "apellidos" : "Ortiz Zermeño",
-         "participaciones" : 0,
+         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/mariana.webp",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
@@ -130,7 +130,7 @@
     {
         "nombre" : "Grecia",
         "apellidos" : "Navarrete Mexicano",
-         "participaciones" : 0,
+         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/grecia.webp",
         "equipo" : "Team y torner (Frone-Playeras)"
@@ -138,7 +138,7 @@
     {
         "nombre" : "Ximena",
         "apellidos" : "Gutierrez Perez",
-         "participaciones" : 0,
+         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/ximena.png",
         "equipo" : "Team y torner (Frone-Playeras)"
@@ -226,7 +226,7 @@
     {
         "nombre" : "Christian Axel",
         "apellidos" : "Moreno Flores",
-         "participaciones" : 0,
+         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/christian-axel.webp",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
@@ -242,7 +242,7 @@
     {
         "nombre" : "Jairo Miguel",
         "apellidos" : "Alvarado Gonzalez",
-         "participaciones" : 1,
+         "participaciones" : 2,
         "practicas" : 2,
         "foto" : "imagenes/jairo.webp",
         "equipo" : "DelBosque"
