@@ -1,152 +1,147 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto2</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <title>Proyecto 4</title>
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>Marvel Universe</h1> 
-            </div>
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 text-center">
-                <h2 class="text-success">Heroes</h2>
-            </div>
-            <div class="col-12 col-md-6 text-center">
-                <h2 class="text-danger">Villanos</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 border bg-light p-5">
-                <div class="row">
-                    <div class="col-12 col-md-6 text-center">
-                        <p id="heroe1"></p>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <input type="text" id="hpoder1" name="hpoder1" class="form-control">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 border bg-light p-5">
-                <div class="row">
-                    <div class="col-12 col-md-6 text-center">
-                        <p id="villano1"></p>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <input type="text" id="vpoder1" name="vpoder1" class="form-control">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 border bg-light p-5">
-                <div class="row">
-                    <div class="col-12 col-md-6 text-center">
-                        <p id="heroe2"></p>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <input type="text" id="hpoder2" name="hpoder2" class="form-control">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 border bg-light p-5">
-                <div class="row">
-                    <div class="col-12 col-md-6 text-center">
-                        <p id="villano2"></p>
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <input type="text" id="vpoder2" name="vpoder2" class="form-control">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center py-2">
-                <input type="button" id="btnIniciar" value="Iniciar Batalla">
-            </div>
-        </div>
-    </div>
-
     <script>
 
-
-        let heroe1 = document.getElementById('heroe1');
-        heroe1.innerHTML = "Spider Man";
-        let hpoder1 = document.getElementById('hpoder1');
-        hpoder1.value = 90;
-
-
-        let villano1 = document.getElementById('villano1');
-        villano1.innerHTML = "Duende verde";
-        let vpoder1 = document.getElementById('vpoder1');
-        vpoder1.value = 80;
-
-        var heroe2 = document.getElementById('heroe2');
-        heroe2.innerHTML = 'Thor';
-        let hpoder2 = document.getElementById('hpoder2');
-        hpoder2.value = 99;
-
-        var villano2 = document.getElementById('villano2');
-        villano2.innerHTML = 'Thanos';
-        let vpoder2 = document.getElementById('vpoder2');
-        vpoder2.value = 100;
-
-        /* Comentario en JS */
-
-        // Ajustar columnas a celulares
-
-        console.log(heroe1);
-        console.log(heroe1.textContent);
-        console.log(hpoder1.value);
-
-        //Incluir foto de los personajes
-        //Agregar 2 heroes y 2 villanos más
-        //Agregar botón para iniciar la batalla
-
-        function iniciarBatalla(heroePoder, villanoPoder){
-
-            console.log(heroePoder);
-            console.log(villanoPoder);
-
-            heroePoder = parseInt(heroePoder);
-            villanoPoder = parseInt(villanoPoder);
-
-            if(heroePoder > villanoPoder){
-                alert('Ganó el héroe');
-            }else{
-                alert('Ganó el villano');
-            }
-
+        let a = 100;
+        let b = 200;
+        function multiplicar(p1, p2) {
+            return p1 * p2;
         }
 
-        let btnIniciar = document.getElementById('btnIniciar');
+        let resultado = multiplicar(a, b);
+        console.log(resultado);
 
-        btnIniciar.addEventListener('click', function(){
-            iniciarBatalla(hpoder1.value, vpoder2.value);
-        });
+
+        function toCelsius(fahrenheit) {
+            return (5/9) * (fahrenheit-32);
+        }
+
+        let value = toCelsius(77);
+        console.log(value);
+
+        //Hacer funcion para calcular el area de un circulo
+        function areaCirculo(radio) {
+            return Math.PI * Math.pow(radio, 2);
+        }   
+
+        let area = areaCirculo(5);
+        console.log(area);
+
+
+        const carro = {
+            tipo : "Fiat", 
+            modelo :  "500", 
+            color : "white"
+        };
+        console.log("Tipo: ", typeof  carro);
+        console.log("Modelo: ", typeof carro.modelo);
+        console.log("Color: ", typeof carro.color);
+        console.log("Color: ", carro["color"]);
+
+
+        let saludo;
+        let hora = new Date().getHours();
+        //hora = 10;
+        if (hora < 12) {
+            saludo = "Buenos días";
+        } else
+        if (hora < 18) {
+            saludo = "Buenas tardes";
+        } else {   
+            saludo = "Buenas noches";
+        }
+        console.log(saludo); 
+
+
+        switch (new Date().getDay()) {
+            case 0:
+                dia = "Domingo";
+                break;
+            case 1:
+                dia = "Lunes";
+                break;
+            case 2:
+                dia = "Martes";
+                break;
+            case 3:
+                dia = "Miercoles";
+                break;
+            case 4:
+                dia = "Jueves";
+                break;
+            case 5:
+                dia = "Viernes";
+                break;
+            case 6:
+                dia = "Sábado";
+            default:
+                dia = "No es un día válido";
+        }
+        
+        console.log("Hoy es:", dia);
+
+        for (let i = 0; i < 5; i++) {
+            console.log("El número es " + i );
+        }
+
+
+        let i = 5;
+
+        for (let i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        console.log("Otra i:",i);
+
+
+        const persona = {nombre:"Juan", apellido:"Pérez", edad:25};
+
+        let misdatos = "";
+        for (let dato in persona) {
+            misdatos += persona[dato] + " ";
+        }
+        console.log(misdatos);
+
+
+        let marcas = ["BMW", "Volvo", "Mini"];
+        for (let marca of marcas) {
+            console.log(marca);
+        }
+
+        let text = "";
+        while (i < 10) {
+            text += "The number is " + i;
+            i++;
+        }
+        console.log(text);
+
+
+        for (let i = 0; i < 10; i++) {
+            if (i === 3) { continue; }
+            console.log("El número es " + i);
+        }
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
     </script>
     
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
