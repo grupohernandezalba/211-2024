@@ -18,8 +18,8 @@
     {
         "nombre" : "Angel Iván",
         "apellidos" : "López Rincón",
-         "participaciones" : 0,
-        "practicas" : 2,
+         "participaciones" : 1,
+        "practicas" : 3,
         "foto" : "imagenes/angel-ivan.webp",
         "equipo" : "DelBosque"
     },
@@ -35,7 +35,7 @@
         "nombre" : "Ruth Guadalupe",
         "apellidos" : "Manriquez Fuerte",
          "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/ruth.webp",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -83,7 +83,7 @@
         "nombre" : "Hector",
         "apellidos" : "Adrian Zaragoza EXENTO",
          "participaciones" : 0,
-        "practicas" : 2,
+        "practicas" : 3,
         "foto" : "imagenes/hector.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -99,7 +99,7 @@
         "nombre" : "Jose Gael",
         "apellidos" : "Ibarra Sanchez",
          "participaciones" : 1, 
-        "practicas" : 2,
+        "practicas" : 3,
         "foto" : "imagenes/jose-gael.webp",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -120,7 +120,7 @@
         "equipo" : "Team y torner (Frone-Playeras)"
     },
     {
-        "nombre" : "Adrian",
+        "nombre" : "Adrian EXENTO",
         "apellidos" : "Martinez Hernandez",
          "participaciones" : 0,
         "practicas" : 0,
@@ -155,7 +155,7 @@
         "nombre" : "Andrés Iván",
         "apellidos" : "Soto Gutiérrez",
          "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/andres-soto.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -171,7 +171,7 @@
         "nombre" : "Joaquín Alejandro",
         "apellidos" : "Valois Ruiz",
          "participaciones" : 0,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -219,7 +219,7 @@
         "nombre" : "Gerardo",
         "apellidos" : "Amézquita Villalobos",
          "participaciones" : 0,
-        "practicas" :3 ,
+        "practicas" : 4 ,
         "foto" : "imagenes/gerardo.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
