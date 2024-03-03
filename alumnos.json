@@ -17,7 +17,7 @@
     },
     {
         "nombre" : "Angel Iván",
-        "apellidos" : "López Rincón",
+        "apellidos" : "López Rincón (Falto hackathon)",
          "participaciones" : 1,
         "practicas" : 3,
         "foto" : "imagenes/angel-ivan.webp",
@@ -25,7 +25,7 @@
     },
     {
         "nombre" : "Julio Cesar 10",
-        "apellidos" : "Romero Tavares",
+        "apellidos" : "Romero Tavares (Falto portafolio, 2, 3,  hackathon)",
          "participaciones" : 0,
         "practicas" : 0,
         "foto" : "imagenes/sin-imagen.png",
@@ -57,9 +57,9 @@
     },
     {
         "nombre" : "Diego Eduardo",
-        "apellidos" : "Castañeda Esparza",
+        "apellidos" : "Castañeda Esparza (falto 3)",
          "participaciones" : 1,
-        "practicas" : 2,
+        "practicas" : 3,
         "foto" : "imagenes/diego.webp",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -81,15 +81,15 @@
     },
     {
         "nombre" : "Hector",
-        "apellidos" : "Adrian Zaragoza EXENTO",
+        "apellidos" : "Adrian Zaragoza EXENTO (Falto 2,3)",
          "participaciones" : 0,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/hector.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
     {
         "nombre" : "Andrés",
-        "apellidos" : "Aguilera Hernández",
+        "apellidos" : "Aguilera Hernández (falto hackathon)",
          "participaciones" : 1,
         "practicas" : 3,
         "foto" : "imagenes/andres-aguilera.webp",
@@ -97,7 +97,7 @@
     },
     {
         "nombre" : "Jose Gael",
-        "apellidos" : "Ibarra Sanchez",
+        "apellidos" : "Ibarra Sanchez (Falto 2)",
          "participaciones" : 1, 
         "practicas" : 3,
         "foto" : "imagenes/jose-gael.webp",
@@ -113,7 +113,7 @@
     },
     {
         "nombre" : "Axel Yael",
-        "apellidos" : "Silva Gonzalez",
+        "apellidos" : "Silva Gonzalez (Falto 2,3)",
          "participaciones" : 1,
         "practicas" : 1,
         "foto" : "imagenes/axel-yael.webp",
@@ -145,7 +145,7 @@
     },
     {
         "nombre" : "Josué Javier",
-        "apellidos" : "Ayala Torres",
+        "apellidos" : "Ayala Torres (Falto portafolio, 2, 3,hackathon)",
          "participaciones" : 2,
         "practicas" : 0,
         "foto" : "imagenes/sin-imagen.png",
@@ -161,9 +161,9 @@
     },
     {
         "nombre" : "Ramsés Jared",
-        "apellidos" : "Tepoz Rodriguez",
+        "apellidos" : "Tepoz Rodriguez (Falto 2)",
          "participaciones" : 0,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -171,7 +171,7 @@
         "nombre" : "Joaquín Alejandro",
         "apellidos" : "Valois Ruiz",
          "participaciones" : 0,
-        "practicas" : 2,
+        "practicas" : 4,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -179,7 +179,7 @@
         "nombre" : "Fernanda Estefania",
         "apellidos" : "Ballesteros Moreno",
          "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/fernanda.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -187,7 +187,7 @@
         "nombre" : "Ricardo",
         "apellidos" : "Islas Ramirez",
          "participaciones" : 0,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/ricardo.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -202,8 +202,8 @@
     {
         "nombre" : "Maximiliano EXENTO",
         "apellidos" : "Arciaga Valdez",
-        "participaciones" : 0,
-        "practicas" : 3,
+        "participaciones" : 1,
+        "practicas" : 4,
         "foto" : "imagenes/max.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
@@ -243,13 +243,13 @@
         "nombre" : "Jairo Miguel",
         "apellidos" : "Alvarado Gonzalez",
          "participaciones" : 2,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/jairo.webp",
         "equipo" : "DelBosque"
     },
     {
         "nombre" : "Carlos Alexandro",
-        "apellidos" : "López García",
+        "apellidos" : "López García (falto 2)",
          "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/alex.webp",
