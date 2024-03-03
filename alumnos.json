@@ -3,13 +3,13 @@
         "nombre" : "ROGELIO EMMANUEL",
         "apellidos" : "AYALA MELENDEZ",
          "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/rogelio.webp",
         "equipo" : "DelBosque"
     },
     {
         "nombre" : "Erick Gustavo",
-        "apellidos" : "Estrada Medina",
+        "apellidos" : "Estrada Medina (Falto 3)",
          "participaciones" : 0,
         "practicas" : 3,
         "foto" : "imagenes/gustavo.png",
@@ -43,7 +43,7 @@
         "nombre" : "Mariana EXENTO",
         "apellidos" : "Ortiz Zermeño",
          "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/mariana.webp",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -81,9 +81,9 @@
     },
     {
         "nombre" : "Hector",
-        "apellidos" : "Adrian Zaragoza EXENTO (Falto 2,3)",
+        "apellidos" : "Adrian Zaragoza (Falto 3)",
          "participaciones" : 0,
-        "practicas" : 4,
+        "practicas" : 3,
         "foto" : "imagenes/hector.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -113,7 +113,7 @@
     },
     {
         "nombre" : "Axel Yael",
-        "apellidos" : "Silva Gonzalez (Falto 2,3)",
+        "apellidos" : "Silva Gonzalez (Falto 2,3, hackathon)",
          "participaciones" : 1,
         "practicas" : 1,
         "foto" : "imagenes/axel-yael.webp",
@@ -122,8 +122,8 @@
     {
         "nombre" : "Adrian EXENTO",
         "apellidos" : "Martinez Hernandez",
-         "participaciones" : 0,
-        "practicas" : 0,
+         "participaciones" : 1,
+        "practicas" : 4,
         "foto" : "imagenes/adrian.png",
         "equipo" : "Team y torner (Frone-Playeras)"
     },
@@ -131,7 +131,7 @@
         "nombre" : "Grecia EXENTO",
         "apellidos" : "Navarrete Mexicano",
          "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/grecia.webp",
         "equipo" : "Team y torner (Frone-Playeras)"
     },
@@ -161,7 +161,7 @@
     },
     {
         "nombre" : "Ramsés Jared",
-        "apellidos" : "Tepoz Rodriguez (Falto 2)",
+        "apellidos" : "Tepoz Rodriguez (Falto 3,hackathon  falto github pages)",
          "participaciones" : 0,
         "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
@@ -235,7 +235,7 @@
         "nombre" : "Abraham EXENTO",
         "apellidos" : "Rodríguez Contreras",
          "participaciones" : 2,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/abraham.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
@@ -249,7 +249,7 @@
     },
     {
         "nombre" : "Carlos Alexandro",
-        "apellidos" : "López García (falto 2)",
+        "apellidos" : "López García (falto 2, 3 falta GitHub Pages)",
          "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/alex.webp",
