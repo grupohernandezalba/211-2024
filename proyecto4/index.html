@@ -1,138 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 4</title>
+    <title>Proyecto4</title>
 </head>
 <body>
 
     <script>
-
-        let a = 100;
-        let b = 200;
-        function multiplicar(p1, p2) {
-            return p1 * p2;
+        let a = 100; let b = 200;
+        function multiplicar(a, b) {
+            return a * b;
         }
-
         let resultado = multiplicar(a, b);
         console.log(resultado);
 
+        function calcularAreaCirculo(radio)  {
+            let area = Math.PI * Math.pow(radio, 2);
+            return area;
+        }
+
+        console.log(calcularAreaCirculo(10));
 
         function toCelsius(fahrenheit) {
             return (5/9) * (fahrenheit-32);
         }
 
-        let value = toCelsius(77);
-        console.log(value);
-
-        //Hacer funcion para calcular el area de un circulo
-        function areaCirculo(radio) {
-            return Math.PI * Math.pow(radio, 2);
-        }   
-
-        let area = areaCirculo(5);
-        console.log(area);
-
+        let temp = toCelsius(77);
+        console.log("Temperatura:" + temp);
 
         const carro = {
-            tipo : "Fiat", 
-            modelo :  "500", 
-            color : "white"
-        };
-        console.log("Tipo: ", typeof  carro);
-        console.log("Modelo: ", typeof carro.modelo);
-        console.log("Color: ", typeof carro.color);
-        console.log("Color: ", carro["color"]);
+            tipo : "Tesla",
+            modelo : "Model 3",
+            color : "rojo"
+        }
 
+        let variable = 10;
+        let variable2 = "Hola";
+        let variable3 = true;
+        let var4 = null;
+        let var5 = [1, 2, 3, 4, 5];
+        console.log("Tipo: ", typeof variable2);
+        console.log("Tipo: ", typeof variable3);
+        console.log("Tipo Nulo: ", typeof var4);
+        console.log("Tipo arreglo: ", typeof var5);
+        console.log("Modelo", carro.modelo );
+        console.log("Modelo", carro["modelo"] );
 
         let saludo;
+        console.log(saludo);
         let hora = new Date().getHours();
-        //hora = 10;
-        if (hora < 12) {
-            saludo = "Buenos días";
-        } else
-        if (hora < 18) {
-            saludo = "Buenas tardes";
-        } else {   
-            saludo = "Buenas noches";
+        console.log(hora);
+
+        hora = 14;
+        if( hora < 12) {
+            console.log("Buenos días");
+        } else if (hora < 19) {
+            console.log("Buenas tardes");
+        } else {
+            console.log("Buenas noches");
         }
-        console.log(saludo); 
 
+        let diaDeLaSemana = new Date().getDay();
+        console.log(diaDeLaSemana);
 
-        switch (new Date().getDay()) {
+        //diaDeLaSemana = 5; 
+
+        switch(diaDeLaSemana) {
             case 0:
-                dia = "Domingo";
+                console.log("Domingo");
                 break;
             case 1:
-                dia = "Lunes";
+                console.log("Lunes");
                 break;
             case 2:
-                dia = "Martes";
+                console.log("Martes");
                 break;
             case 3:
-                dia = "Miercoles";
+                console.log("Miércoles");
                 break;
             case 4:
-                dia = "Jueves";
+                console.log("Jueves");
                 break;
             case 5:
-                dia = "Viernes";
+                console.log("Viernes");
                 break;
             case 6:
-                dia = "Sábado";
+                console.log("Sábado");
+                break;
             default:
-                dia = "No es un día válido";
-        }
-        
-        console.log("Hoy es:", dia);
-
-        for (let i = 0; i < 5; i++) {
-            console.log("El número es " + i );
+                console.log("Día no válido");
+                break;
         }
 
+        let j = 500;
+        let nombre = "Mariana";
+        for(let j = 10; j <= 20; j++) {
+            console.log(j);
+            let nombre = "Romina";
+            console.log("Nombre dentro del for:", nombre);
+        }
+        console.log("Valor de j fuera del ciclo:", j);
 
-        let i = 5;
+        console.log("Nombre:", nombre);
 
-        for (let i = 0; i < 10; i++) {
-            console.log(i);
+        const PI = Math.PI;
+        console.log(PI);
+
+        const persona = { nombre : "Juan", edad : 30, sexo : "M", casado : false};
+
+        for(let propiedad in persona) {
+            console.log(propiedad, persona[propiedad]);
         }
 
-        console.log("Otra i:",i);
-
-
-        const persona = {nombre:"Juan", apellido:"Pérez", edad:25};
-
-        let misdatos = "";
-        for (let dato in persona) {
-            misdatos += persona[dato] + " ";
-        }
-        console.log(misdatos);
-
-
-        let marcas = ["BMW", "Volvo", "Mini"];
-        for (let marca of marcas) {
+        let marcas = ["Toyota", "Nissan", "Honda", "Mazda"];
+        for(let marca of marcas) {
             console.log(marca);
         }
 
-        while (i < 10) {
-            console.log("Ciclo while i: " + i);
-            i++;
+        j = 1;  
+        while(j < 30) {
+            console.log(j);
+            j++;
         }
-
-
-        for (let i = 0; i < 10; i++) {
-            if (i === 3) { continue; }
-            console.log("El número es " + i);
-        }
-
-
-    
-
-
-
-
-
 
 
 
