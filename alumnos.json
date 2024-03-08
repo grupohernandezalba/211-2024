@@ -1,6 +1,6 @@
 [
     {
-        "nombre" : "ROGELIO EMMANUEL",
+        "nombre" : "ROGELIO EMMANUEL pendiente",
         "apellidos" : "AYALA MELENDEZ",
          "participaciones" : 1,
         "practicas" : 4,
@@ -8,7 +8,7 @@
         "equipo" : "DelBosque"
     },
     {
-        "nombre" : "Erick Gustavo",
+        "nombre" : "Erick Gustavo 8",
         "apellidos" : "Estrada Medina (Falto 3)",
          "participaciones" : 0,
         "practicas" : 3,
@@ -16,7 +16,7 @@
         "equipo" : "DelBosque"
     },
     {
-        "nombre" : "Angel Iván",
+        "nombre" : "Angel Iván 9",
         "apellidos" : "López Rincón (Falto hackathon)",
          "participaciones" : 1,
         "practicas" : 3,
@@ -24,7 +24,7 @@
         "equipo" : "DelBosque"
     },
     {
-        "nombre" : "Julio Cesar 10",
+        "nombre" : "Julio Cesar 8",
         "apellidos" : "Romero Tavares (Falto portafolio, 2, 3,  hackathon)",
          "participaciones" : 0,
         "practicas" : 0,
@@ -32,7 +32,7 @@
         "equipo" : "DelBosque"
     },
     {
-        "nombre" : "Ruth Guadalupe",
+        "nombre" : "Ruth Guadalupe 10",
         "apellidos" : "Manriquez Fuerte",
          "participaciones" : 1,
         "practicas" : 4,
@@ -48,7 +48,7 @@
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
     {
-        "nombre" : "Josafat Francisco",
+        "nombre" : "Josafat Francisco 10",
         "apellidos" : "Aguirre Saldaña",
          "participaciones" : 2,
         "practicas" : 4,
@@ -56,7 +56,7 @@
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
     {
-        "nombre" : "Diego Eduardo",
+        "nombre" : "Diego Eduardo pendiente",
         "apellidos" : "Castañeda Esparza (falto 3)",
          "participaciones" : 1,
         "practicas" : 3,
@@ -64,7 +64,7 @@
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
     {
-        "nombre" : "Camila",
+        "nombre" : "Camila 10",
         "apellidos" : "Liedo Castellanos",
          "participaciones" : 1,
         "practicas" : 4,
@@ -80,7 +80,7 @@
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
     {
-        "nombre" : "Hector",
+        "nombre" : "Hector 8",
         "apellidos" : "Adrian Zaragoza (Falto 3)",
          "participaciones" : 0,
         "practicas" : 3,
@@ -88,7 +88,7 @@
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
     {
-        "nombre" : "Andrés",
+        "nombre" : "Andrés 9",
         "apellidos" : "Aguilera Hernández (falto hackathon)",
          "participaciones" : 1,
         "practicas" : 3,
@@ -96,7 +96,7 @@
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
     {
-        "nombre" : "Jose Gael",
+        "nombre" : "Jose Gael 9",
         "apellidos" : "Ibarra Sanchez (Falto 2)",
          "participaciones" : 1, 
         "practicas" : 3,
@@ -112,7 +112,7 @@
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
     {
-        "nombre" : "Axel Yael",
+        "nombre" : "Axel Yael 8",
         "apellidos" : "Silva Gonzalez (Falto 2,3, hackathon)",
          "participaciones" : 1,
         "practicas" : 1,
@@ -144,7 +144,7 @@
         "equipo" : "Team y torner (Frone-Playeras)"
     },
     {
-        "nombre" : "Josué Javier",
+        "nombre" : "Josué Javier 8",
         "apellidos" : "Ayala Torres (Falto portafolio, 2, 3,hackathon)",
          "participaciones" : 2,
         "practicas" : 0,
@@ -152,7 +152,7 @@
         "equipo" : "Team y torner (Frone-Playeras)"
     },
     {
-        "nombre" : "Andrés Iván",
+        "nombre" : "Andrés Iván 10",
         "apellidos" : "Soto Gutiérrez",
          "participaciones" : 1,
         "practicas" : 4,
@@ -160,7 +160,7 @@
         "equipo" : "Lourve collection (Joyería)"
     },
     {
-        "nombre" : "Ramsés Jared",
+        "nombre" : "Ramsés Jared 9",
         "apellidos" : "Tepoz Rodriguez (Falto 3,hackathon  falto github pages)",
          "participaciones" : 0,
         "practicas" : 2,
@@ -168,7 +168,7 @@
         "equipo" : "Lourve collection (Joyería)"
     },
     {
-        "nombre" : "Joaquín Alejandro",
+        "nombre" : "Joaquín Alejandro 9",
         "apellidos" : "Valois Ruiz",
          "participaciones" : 0,
         "practicas" : 4,
@@ -176,7 +176,7 @@
         "equipo" : "Lourve collection (Joyería)"
     },
     {
-        "nombre" : "Fernanda Estefania",
+        "nombre" : "Fernanda Estefania 10",
         "apellidos" : "Ballesteros Moreno",
          "participaciones" : 1,
         "practicas" : 4,
@@ -184,7 +184,7 @@
         "equipo" : "Lourve collection (Joyería)"
     },
     {
-        "nombre" : "Ricardo",
+        "nombre" : "Ricardo 10",
         "apellidos" : "Islas Ramirez",
          "participaciones" : 0,
         "practicas" : 4,
@@ -192,7 +192,7 @@
         "equipo" : "Lourve collection (Joyería)"
     },
     {
-        "nombre" : "Romina",
+        "nombre" : "Romina 10",
         "apellidos" : "Pavón Ibarra",
          "participaciones" : 1,
         "practicas" : 4,
@@ -208,7 +208,7 @@
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
     {
-        "nombre" : "José Alberto",
+        "nombre" : "José Alberto 10",
         "apellidos" : "Amador Ynfante",
          "participaciones" : 0,
         "practicas" : 4,
@@ -216,7 +216,7 @@
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
     {
-        "nombre" : "Gerardo",
+        "nombre" : "Gerardo 10" ,
         "apellidos" : "Amézquita Villalobos",
          "participaciones" : 0,
         "practicas" : 4 ,
@@ -240,7 +240,7 @@
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
     {
-        "nombre" : "Jairo Miguel",
+        "nombre" : "Jairo Miguel 10",
         "apellidos" : "Alvarado Gonzalez",
          "participaciones" : 2,
         "practicas" : 4,
@@ -248,7 +248,7 @@
         "equipo" : "DelBosque"
     },
     {
-        "nombre" : "Carlos Alexandro",
+        "nombre" : "Carlos Alexandro 9",
         "apellidos" : "López García (falto 2, 3 falta GitHub Pages)",
          "participaciones" : 1,
         "practicas" : 2,
