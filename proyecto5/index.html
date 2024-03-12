@@ -1,94 +1,81 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="-dark">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora en JS</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Practica 7</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center py-3">
-                <h1>Calculadora en JS</h1>
-            </div>
-        </div>
-    </div>
-    <form name="calculadora">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center py-3">
-                     <input type="text" name="resultado" id="resultado" readonly class="form-control" autocomplete="off">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(7)">7</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(8)">8</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(9)">9</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="asignar('+')">+</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(4)">4</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(5)">5</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(6)">6</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="asignar('-')">-</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(1)">1</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(2)">2</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(3)">3</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="asignar('*')">X</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar(0)">0</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-primary form-control rounded-pill" onclick="asignar('.')">.</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="reset" class="btn btn-secondary form-control rounded-pill" onclick="asignar('')">C</button>
-                </div>
-                <div class="col-3 text-center py-3">
-                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="asignar('/')">/</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6 text-center py-3 offset-6">
-                    <button type="button" class="btn btn-warning form-control rounded-pill" onclick="calcular()">=</button>
-                </div>
-            </div>
-        </div>
-    </form>
 
-    <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <h1 id="lista"></h1>
+
+    <script>
+        let lista = document.getElementById("lista");
+
+        let texto = `Hola mi nombre es 'Juan'`;
+        console.log(texto);
+
+        console.log(` cadena de texto en la línea 1
+        
+
+        cadena de texto en la línea 2
+        `);
+
+        let a = 5;
+        let b = 10;
+        console.log(`Suma es: ${ a + b }
+            y 
+
+            Multiplicación : ${ a * b } 
+        `);
+
+        let precio = 120;
+        const IVA = 0.16;
+        let total = ` Total: ${ (precio * (1 + IVA)).toFixed(2)} `;
+        console.log('Precio con iva: ' + total);
+
+        let persona = "Mike";
+        let edad = 16;
+
+        function miFuncion(cadenas, personaX, edadExp) {
+            console.log(cadenas);
+            console.log(cadenas[0]);
+            console.log(personaX);
+            console.log(edadExp);
+/*
+            if(edadExp>18)
+                return "Mayor de edad";
+            else 
+                return "Menor de edad";
+*/
+            return edadExp>18 ? "Mayor de edad" : "Menor de edad";
+        }
+        const resultado = miFuncion`El señor
+         ${persona} tiene 
+        una edad de ${edad}.`;
+        console.log(resultado);
+
+        let titulo = "Mejores cantantes mujeres";
+        let cantantes = ["Rihanna","Bellacath","Shakira"];
+        let html = `<h2> ${ titulo } </h2>`;
+
+        html += "<ul>";
+        for(let cantante of cantantes){
+            html += `<li>${ cantante }</li>`;
+        }
+        html += "</ul>";
+
+        lista.innerHTML = html ; 
+
+
+
+    </script>
+    
 </body>
 </html>
