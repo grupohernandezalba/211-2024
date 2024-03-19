@@ -3,15 +3,15 @@
         "nombre" : "ROGELIO EMMANUEL",
         "apellidos" : "AYALA MELENDEZ",
         "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/rogelio.webp",
         "equipo" : "DelBosque"
     },
     {
         "nombre" : "Erick Gustavo",
         "apellidos" : "Estrada Medina",
-         "participaciones" : 0,
-         "practicas" : 0,
+         "participaciones" : 1,
+         "practicas" : 3,
         "foto" : "imagenes/gustavo.png",
         "equipo" : "DelBosque"
     },
@@ -26,8 +26,8 @@
     {
         "nombre" : "Julio Cesar",
         "apellidos" : "Romero Tavares",
-         "participaciones" : 0,
-        "practicas" : 0,
+         "participaciones" : 1,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "DelBosque"
     },
@@ -43,15 +43,15 @@
         "nombre" : "Mariana",
         "apellidos" : "Ortiz Zermeño",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 2,
         "foto" : "imagenes/mariana.webp",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
     {
         "nombre" : "Josafat Francisco",
         "apellidos" : "Aguirre Saldaña",
-         "participaciones" : 0,
-         "practicas" : 0,
+         "participaciones" : 1,
+         "practicas" :3,
         "foto" : "imagenes/josafat.png",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -66,8 +66,8 @@
     {
         "nombre" : "Camila",
         "apellidos" : "Liedo Castellanos",
-         "participaciones" : 0,
-         "practicas" : 0,
+         "participaciones" : 1,
+         "practicas" : 2,
         "foto" : "imagenes/camila.png",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -75,7 +75,7 @@
         "nombre" : "Sergio Ernesto",
         "apellidos" : "Rosas Ducoing",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" :3,
         "foto" : "imagenes/sergio.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -83,7 +83,7 @@
         "nombre" : "Hector",
         "apellidos" : "Adrian Zaragoza",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/hector.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -91,7 +91,7 @@
         "nombre" : "Andrés",
         "apellidos" : "Aguilera Hernández",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 2,
         "foto" : "imagenes/andres-aguilera.webp",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -99,7 +99,7 @@
         "nombre" : "Jose Gael",
         "apellidos" : "Ibarra Sanchez",
          "participaciones" : 0, 
-         "practicas" : 0,
+         "practicas" : 2,
         "foto" : "imagenes/jose-gael.webp",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -107,7 +107,7 @@
         "nombre" : "Angel Alejandro",
         "apellidos" : "Becerra Rojas",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 3,
         "foto" : "imagenes/angel-alejandro.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -138,7 +138,7 @@
     {
         "nombre" : "Ximena",
         "apellidos" : "Gutierrez Perez",
-         "participaciones" : 0,
+         "participaciones" : 1,
          "practicas" : 0,
         "foto" : "imagenes/ximena.png",
         "equipo" : "Team y torner (Frone-Playeras)"
@@ -155,7 +155,7 @@
         "nombre" : "Andrés Iván",
         "apellidos" : "Soto Gutiérrez",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/andres-soto.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -163,7 +163,7 @@
         "nombre" : "Ramsés Jared",
         "apellidos" : "Tepoz Rodriguez",
          "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -171,7 +171,7 @@
         "nombre" : "Joaquín Alejandro",
         "apellidos" : "Valois Ruiz",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -179,7 +179,7 @@
         "nombre" : "Fernanda Estefania",
         "apellidos" : "Ballesteros Moreno",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/fernanda.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -187,7 +187,7 @@
         "nombre" : "Ricardo",
         "apellidos" : "Islas Ramirez",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" :1,
         "foto" : "imagenes/ricardo.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -195,7 +195,7 @@
         "nombre" : "Romina",
         "apellidos" : "Pavón Ibarra",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 2,
         "foto" : "imagenes/romina.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -203,7 +203,7 @@
         "nombre" : "Maximiliano",
         "apellidos" : "Arciaga Valdez",
         "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 3,
         "foto" : "imagenes/max.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
@@ -211,31 +211,31 @@
         "nombre" : "José Alberto",
         "apellidos" : "Amador Ynfante",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 3,
         "foto" : "imagenes/jose-alberto.webp",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
     {
         "nombre" : "Gerardo" ,
         "apellidos" : "Amézquita Villalobos",
-         "participaciones" : 0,
-        "practicas" : 0 ,
+         "participaciones" : 1,
+        "practicas" : 3 ,
         "foto" : "imagenes/gerardo.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
     {
         "nombre" : "Christian Axel",
         "apellidos" : "Moreno Flores",
-         "participaciones" : 0,
-         "practicas" : 0,
+         "participaciones" : 1,
+         "practicas" : 3,
         "foto" : "imagenes/christian-axel.webp",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
     {
         "nombre" : "Abraham",
         "apellidos" : "Rodríguez Contreras",
-         "participaciones" : 0,
-         "practicas" : 0,
+         "participaciones" : 1,
+         "practicas" : 1,
         "foto" : "imagenes/abraham.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
@@ -243,7 +243,7 @@
         "nombre" : "Jairo Miguel",
         "apellidos" : "Alvarado Gonzalez",
          "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 3,
         "foto" : "imagenes/jairo.webp",
         "equipo" : "DelBosque"
     },
