@@ -21,7 +21,7 @@
             descripcion: descripcion.value
         });
         console.log(tareas);
-    }
+    } 
 
     let cerrarModal = () => {
         btnGuardar.setAttribute("data-bs-dismiss","modal");
