@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto9</title>
+</head>
+<body>
+    <button onclick="this.innerHTML = Date()">La hora es?</button>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">La hora es?</button>
+    <p id="demo"></p>
+
+
+    <button onclick="document.querySelector('.valor').innerHTML = 'Cuatro'">Cambia clase valor</button>
+    <button onclick="document.querySelector('#otroValor').innerHTML = 'Cuatro'">Cambia id valor</button>
+    
+
+    <button onclick="document.getElementsByClassName('apellido')[1].innerHTML = 'Hernandez'">Cambia apellido</button>
+
+    <ul>
+        <li>Uno</li>
+        <li class="valor">Dos</li>
+        <li id="otroValor">Tres</li>
+    </ul>
+
+    <p class="apellido">Apellido1</p>
+    <p class="apellido">Apellido2</p>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
