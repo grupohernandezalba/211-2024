@@ -1,16 +1,65 @@
+    let formulario = document.getElementById('formulario');
+    let nombre = document.getElementById('nombre');
+    let fecha = document.getElementById('fecha');
+    let descripcion = document.getElementById('descripcion');
+
+    let tareas = [];
+    let listaTareas = document.getElementById("listaTareas");
+    let btnGuardar = document.getElementById('btnGuardar');
+
+    function mostrarTareas(){
+        listaTareas.innerHTML = "";
+        tareas.forEach((tarea,indice) => {
+            listaTareas.innerHTML += `
+            <div class='row'>
+                <div class='col-3 border p-3'>
+                    <strong>${ tarea.nombre }</strong>
+                </div>
+                <div class='col-3 border p-3'>
+                    <strong>${ tarea.fecha }</strong>
+                </div>
+                <div class='col-4 border p-3'>
+                    <strong>${ tarea.descripcion }</strong>
+                </div>
+                <div class='col-1 border p-3 text-center'>
+                    <button class='btn btn-success'>Editar</button>
+                </div>
+                <div class='col-1 border p-3 text-center'>
+                    <button class='btn btn-danger' onClick="borrarTarea(${ indice })">Borrar</button>
+                </div>
+            </div>
+            `;
+        });
+    }
+
+    mostrarTareas();
+
+    let agregarDatos = ()=> {
+        let datos = {
+            nombre: nombre.value,
+            fecha: fecha.value,
+            descripcion: descripcion.value
+        }
+        tareas.push(datos);
+        mostrarTareas();
+    }
     
-    console.log({});
-    console.log([]);
-    console.log((x) => x * 2);
+    let cerrarModal = ()=> {
+        btnGuardar.setAttribute("data-bs-dismiss","modal");
+        btnGuardar.click();
+    }
 
-    console.log(typeof []); // "object"
-    console.log(typeof new Date()); // "object"
-    console.log(typeof /(hello|goodbye)/); // "object"
+    let borrarTarea = (indice)=> {
+        tareas.splice(indice,1);
+        console.log(tareas);
+        mostrarTareas();
+    }
 
-    console.log(typeof 2); // "number"
-    console.log(typeof 'hello'); // "string"
-    console.log(typeof undefined); // "undefined"
+    formulario.addEventListener('submit', function(event) {
+        event.preventDefault();
+        agregarDatos();
+        cerrarModal();
+        formulario.reset();
+    });
 
-    console.log(typeof {}); // "object"
-    console.log(typeof []); // "object"
-    console.log(typeof ((x) => x * 2)); // "function"
+
