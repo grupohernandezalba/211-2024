@@ -90,7 +90,7 @@
     {
         "nombre" : "Andrés",
         "apellidos" : "Aguilera Hernández",
-         "participaciones" : 0,
+         "participaciones" : 1,
          "practicas" : 4,
         "foto" : "imagenes/andres-aguilera.webp",
         "equipo" : "GitArmadores (COD/Odontología Dental)"

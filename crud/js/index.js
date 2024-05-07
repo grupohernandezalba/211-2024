@@ -12,7 +12,23 @@
 
     let btnGuardar = document.getElementById("btnGuardar");
     let listaTareas = document.getElementById("listaTareas");
-    let tareas = [];
+    let tareas = [
+        {
+            nombre: "Hugo",
+            fecha: "2024-05-07",
+            descripcion: "Programar en JS"
+        },
+        {
+            nombre: "Paco",
+            fecha: "2024-05-07",
+            descripcion: "Programar en JS"
+        },
+        {
+            nombre: "Luis",
+            fecha: "2024-05-07",
+            descripcion: "Programar en JS"
+        }
+    ];
 
     let agregarDatos = () => {
         tareas.push({
@@ -40,7 +56,7 @@
             listaTareas.innerHTML += `
             <div class='row' id="${indice}">
                 <div class='col-3 border p-3'>
-                    <strong>DATO HOY ES 15 de marzo del 2023  ${tarea.nombre}</strong>
+                    <strong>${tarea.nombre}</strong>
                 </div>
                 <div class='col-2 border p-3'>
                     <strong>${tarea.fecha}</strong>
@@ -102,6 +118,8 @@
         btnGuardarEditar.setAttribute("data-bs-dismiss","modal");
         btnGuardarEditar.click();
     }
+
+    mostrarTareas();
 
 
 

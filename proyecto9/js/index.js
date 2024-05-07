@@ -1,75 +1,52 @@
-// continue
 
-for(let x = 0; x < 5; x++){
-    if(x==2)
-      continue;
-    console.log(x);
-}
+    for(let x=0; x < 5; x++ ){
+        if(x==2)
+            continue;
+        console.log(x);
+    }
 
+    let a = 10;
+    a = a + 5;
+    a += 5;
 
     let x = 10;
-    x *= 5;
-    console.log(x);
-    
     x **= 2;
     console.log(x);
 
-
-    // Date object:
-    const fecha = new Date("2022-03-25");
-
+    // Tipo fecha
+    const fecha = new Date();
     console.log(fecha);
 
-
-    function myFunction(p1=3, p2=7) {
+    function myFunction(p1=3, p2=4){
         return p1 * p2;
     }
 
     console.log(myFunction(5,10));
     console.log(myFunction());
     console.log(myFunction(8));
+    console.log(myFunction);
 
-/*
-    function otraFuncion(a, b) {
-        return a * b;
+    function otraFuncion(a, b){
+        return a * b
     }
 
-    */
+    let otraFuncion2 = (a,b) => {
+        return a * b
+    }
+    console.log(otraFuncion2(4,80));
 
-    //Funciones anonimas
-    let otraFuncion = (a, b) => a * b; 
-
-    console.log(otraFuncion);
-    console.log(otraFuncion(3,4));
-
-
-    //Funciones autoejecutadas
-
-    (function () {
-        console.log('Estoy llamando una funcion sin nombre autoejecutada')
-    })();
-
-
-    ( ()=> {
-        console.log('Estoy llamando una funcion flecha sin nombre autoejecutada')
-    })();
-
-    //variables tipo objeto en js
-    const person = {
-        firstName: "John",
-        lastName : "Doe",
-        id       : 5566,
-        fullName : function() {
-          return this.firstName + " " + this.lastName;
+    //Funcion autoejecutable
+    // Funcion anonima
+    (() => console.log('función anónima autoejecutable'))();
+    
+    let alumno = {
+        nombre : "Josafat",
+        apellido : "Aguirre",
+        matricula : 90210,
+        nombreCompleto : function()  {
+            return this.nombre + ' ' + this.apellido;
         }
-    };
+    }
 
-    console.log(person.fullName());
+    console.log(alumno.nombreCompleto())
 
-    //Eventos
-
-
-
-
-
- 

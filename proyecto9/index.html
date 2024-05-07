@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto9</title>
+    <title>Curiosidades en JS</title>
 </head>
 <body>
-    <button onclick="this.innerHTML = Date()">La hora es?</button>
-    <button onclick="document.getElementById('demo').innerHTML = Date()">La hora es?</button>
-    <p id="demo"></p>
-
-
-    <button onclick="document.querySelector('.valor').innerHTML = 'Cuatro'">Cambia clase valor</button>
-    <button onclick="document.querySelector('#otroValor').innerHTML = 'Cuatro'">Cambia id valor</button>
+    <h1>Javascript</h1>
+    <button onclick="this.innerHTML = moment().add(10, 'days').calendar();">La fecha mas 10 dias es?</button>
     
+    <button onclick="document.getElementById('demo').innerHTML = Date()">La hora es?</button>
+    <p id="demo">Aqui va la hora</p>
 
-    <button onclick="document.getElementsByClassName('apellido')[1].innerHTML = 'Hernandez'">Cambia apellido</button>
+    <button onclick="document.querySelector('.valor').innerHTML = '&#128511;'">Cambia clase valor</button>
 
+    <button onclick="document.querySelector('#otroValor').innerHTML = '&#128508;'"> cambiar a  emoji</button>
     <ul>
         <li>Uno</li>
         <li class="valor">Dos</li>
         <li id="otroValor">Tres</li>
     </ul>
 
-    <p class="apellido">Apellido1</p>
-    <p class="apellido">Apellido2</p>
-
 
     <script src="js/index.js"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
 </body>
 </html>
