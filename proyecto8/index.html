@@ -24,7 +24,7 @@
     </div>
 
     <div id="listaTareas"></div>
-
+    
     <form name="formulario" id="formulario" action="index.html" method="get">
         <div class="modal fade" id="nuevaTarea" tabindex="-1">
             <div class="modal-dialog">
@@ -41,6 +41,10 @@
                                     <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="ingresa el nombre de la tarea">
                             </div>
                             <div class="col-12">
+                                <label for="urlvideo">Url video: </label>
+                                <input type="text" id="urlvideo" name="urlvideo" class="form-control" required placeholder="ingresa el nombre de la tarea">
+                            </div>
+                            <div class="col-12">
                                 <label for="fecha">Fecha: </label>
                                 <input type="date" id="fecha" name="fecha" class="form-control" required placeholder="ingresa una fecha">
                             </div>
@@ -53,6 +57,41 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         <button type="submit" id="btnGuardar" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form name="formularioEditar" id="formularioEditar" action="index.html" method="get">
+        <div class="modal fade" id="editarTarea" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Editar esta tarea</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                    <label for="nombreEditar">Nombre: </label>
+                                    <input type="text" id="nombreEditar" name="nombreEditar" class="form-control" required placeholder="ingresa el nombre de la tarea">
+                            </div>
+                            <div class="col-12">
+                                <label for="fechaEditar">Fecha: </label>
+                                <input type="date" id="fechaEditar" name="fechaEditar" class="form-control" required placeholder="ingresa una fecha">
+                            </div>
+                            <div class="col-12">
+                                <label for="descripcionEditar">Descripción: </label>
+                                <textarea name="descripcionEditar" id="descripcionEditar" cols="30" rows="10" required class="form-control" placeholder="ingresa la descripción"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="hidden" name="idTarea" id="idTarea">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" id="btnGuardarEditar" class="btn btn-primary">Guardar</button>
                     </div>
                 </div>
             </div>

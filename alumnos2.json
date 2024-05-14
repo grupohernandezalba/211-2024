@@ -1,0 +1,258 @@
+[
+    {
+        "nombre" : "ROGELIO EMMANUEL 9",
+        "apellidos" : "AYALA MELENDEZ",
+        "participaciones" : 1,
+         "practicas" : 5,
+        "foto" : "imagenes/rogelio.webp",
+        "equipo" : "DelBosque"
+    },
+    {
+        "nombre" : "Erick Gustavo 10",
+        "apellidos" : "Estrada Medina",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/gustavo.png",
+        "equipo" : "DelBosque"
+    },
+    {
+        "nombre" : "Angel Iván 9",
+        "apellidos" : "López Rincón",
+         "participaciones" : 0,
+         "practicas" : 5,
+        "foto" : "imagenes/angel-ivan.webp",
+        "equipo" : "DelBosque"
+    },
+    {
+        "nombre" : "Julio Cesar 9",
+        "apellidos" : "Romero Tavares",
+         "participaciones" : 1,
+        "practicas" : 4,
+        "foto" : "imagenes/sin-imagen.png",
+        "equipo" : "DelBosque"
+    },
+    {
+        "nombre" : "Ruth Guadalupe 10",
+        "apellidos" : "Manriquez Fuerte",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/ruth.webp",
+        "equipo" : "Los indestructibles, (Mariscos El Potente)"
+    },
+    {
+        "nombre" : "Mariana 9",
+        "apellidos" : "Ortiz Zermeño",
+         "participaciones" : 1,
+         "practicas" : 5,
+        "foto" : "imagenes/mariana.webp",
+        "equipo" : "Los indestructibles, (Mariscos El Potente)"
+    },
+    {
+        "nombre" : "Josafat Francisco 10",
+        "apellidos" : "Aguirre Saldaña",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/josafat.png",
+        "equipo" : "Los indestructibles, (Mariscos El Potente)"
+    },
+    {
+        "nombre" : "Diego Eduardo 8",
+        "apellidos" : "Castañeda Esparza",
+         "participaciones" : 0,
+         "practicas" : 6,
+        "foto" : "imagenes/diego.webp",
+        "equipo" : "Los indestructibles, (Mariscos El Potente)"
+    },
+    {
+        "nombre" : "Camila 10",
+        "apellidos" : "Liedo Castellanos",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/camila.png",
+        "equipo" : "Los indestructibles, (Mariscos El Potente)"
+    },
+    {
+        "nombre" : "Sergio Ernesto 10",
+        "apellidos" : "Rosas Ducoing",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/sergio.png",
+        "equipo" : "GitArmadores (COD/Odontología Dental)"
+    },
+    {
+        "nombre" : "Hector 10",
+        "apellidos" : "Adrian Zaragoza",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/hector.png",
+        "equipo" : "GitArmadores (COD/Odontología Dental)"
+    },
+    {
+        "nombre" : "Andrés 9",
+        "apellidos" : "Aguilera Hernández",
+         "participaciones" : 1,
+         "practicas" : 4,
+        "foto" : "imagenes/andres-aguilera.webp",
+        "equipo" : "GitArmadores (COD/Odontología Dental)"
+    },
+    {
+        "nombre" : "Jose Gael 9",
+        "apellidos" : "Ibarra Sanchez",
+         "participaciones" : 1, 
+         "practicas" : 5,
+        "foto" : "imagenes/jose-gael.webp",
+        "equipo" : "GitArmadores (COD/Odontología Dental)"
+    },
+    {   
+        "nombre" : "Angel Alejandro",
+        "apellidos" : "Becerra Rojas",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/angel-alejandro.png",
+        "equipo" : "GitArmadores (COD/Odontología Dental)"
+    },
+    {
+        "nombre" : "Axel Yael 8",
+        "apellidos" : "Silva Gonzalez",
+         "participaciones" : 0,
+        "practicas" : 3,
+        "foto" : "imagenes/axel-yael.webp",
+        "equipo" : "Team y torner (Frone-Playeras)"
+    },
+    {
+        "nombre" : "Adrian 9",
+        "apellidos" : "Martinez",
+         "participaciones" : 0,
+         "practicas" : 5,
+        "foto" : "imagenes/adrian.png",
+        "equipo" : "Team y torner (Frone-Playeras)"
+    },
+    {
+        "nombre" : "Grecia 9",
+        "apellidos" : "Navarrete Mexicano",
+         "participaciones" : 1,
+         "practicas" : 5,
+        "foto" : "imagenes/grecia.webp",
+        "equipo" : "Team y torner (Frone-Playeras)"
+    },
+    {
+        "nombre" : "Ximena 10",
+        "apellidos" : "Gutierrez Perez",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/ximena.png",
+        "equipo" : "Team y torner (Frone-Playeras)"
+    },
+    {
+        "nombre" : "Josué Javier 9",
+        "apellidos" : "Ayala Torres",
+         "participaciones" : 1,
+        "practicas" : 5,
+        "foto" : "imagenes/sin-imagen.png",
+        "equipo" : "Team y torner (Frone-Playeras)"
+    },
+    {
+        "nombre" : "Andrés Iván 10",
+        "apellidos" : "Soto Gutiérrez",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/andres-soto.png",
+        "equipo" : "Lourve collection (Joyería)"
+    },
+    {
+        "nombre" : "Ramsés Jared 10",
+        "apellidos" : "Tepoz Rodriguez",
+         "participaciones" : 1,
+        "practicas" : 6,
+        "foto" : "imagenes/sin-imagen.png",
+        "equipo" : "Lourve collection (Joyería)"
+    },
+    {
+        "nombre" : "Joaquín Alejandro 10",
+        "apellidos" : "Valois Ruiz",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/sin-imagen.png",
+        "equipo" : "Lourve collection (Joyería)"
+    },
+    {
+        "nombre" : "Fernanda Estefania",
+        "apellidos" : "Ballesteros Moreno",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/fernanda.webp",
+        "equipo" : "Lourve collection (Joyería)"
+    },
+    {
+        "nombre" : "Ricardo 10",
+        "apellidos" : "Islas Ramirez",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/ricardo.webp",
+        "equipo" : "Lourve collection (Joyería)"
+    },
+    {
+        "nombre" : "Romina 10",
+        "apellidos" : "Pavón Ibarra",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/romina.webp",
+        "equipo" : "Lourve collection (Joyería)"
+    },
+    {
+        "nombre" : "Maximiliano 10",
+        "apellidos" : "Arciaga Valdez",
+        "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/max.png",
+        "equipo" : "GODJO, (Reproi - Aire acondicionado)"
+    },
+    {
+        "nombre" : "José Alberto 10",
+        "apellidos" : "Amador Ynfante",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/jose-alberto.webp",
+        "equipo" : "GODJO, (Reproi - Aire acondicionado)"
+    },
+    {
+        "nombre" : "Gerardo" ,
+        "apellidos" : "Amézquita Villalobos",
+         "participaciones" : 1,
+        "practicas" : 6 ,
+        "foto" : "imagenes/gerardo.png",
+        "equipo" : "GODJO, (Reproi - Aire acondicionado)"
+    },
+    {
+        "nombre" : "Christian Axel 10",
+        "apellidos" : "Moreno Flores",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/christian-axel.webp",
+        "equipo" : "GODJO, (Reproi - Aire acondicionado)"
+    },
+    {
+        "nombre" : "Abraham 10",
+        "apellidos" : "Rodríguez Contreras",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/abraham.png",
+        "equipo" : "GODJO, (Reproi - Aire acondicionado)"
+    },
+    {
+        "nombre" : "Jairo Miguel 10",
+        "apellidos" : "Alvarado Gonzalez",
+         "participaciones" : 1,
+         "practicas" : 6,
+        "foto" : "imagenes/jairo.webp",
+        "equipo" : "DelBosque"
+    },
+    {
+        "nombre" : "Carlos Alexandro 8",
+        "apellidos" : "López García",
+         "participaciones" : 0,
+        "practicas" : 2,
+        "foto" : "imagenes/alex.webp",
+        "equipo" : "Team y torner (Frone-Playeras)"
+    }
+]
