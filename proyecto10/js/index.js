@@ -1,11 +1,9 @@
-
-
     let listaProductos = document.querySelector("#listaProductos");
     let listaCategorias = document.querySelector("#listaCategorias");
 
     let productos = [];
 
-    function obtieneProductos(){
+    let obtieneProductos = () => {
 
         fetch('https://fakestoreapi.com/products/')
             .then(res => res.json())
@@ -26,7 +24,7 @@
 
     }
 
-    function muestraProductos(categoria){
+    let muestraProductos = (categoria) => {
         console.log("muestraProductos:", productos);
 
         productosMostrar = productos.slice();
@@ -52,7 +50,7 @@
     }
 
 
-    function obtieneCategorias(){
+    let obtieneCategorias = () =>   {
 
         fetch('https://fakestoreapi.com/products/categories')
             .then(res => res.json())
