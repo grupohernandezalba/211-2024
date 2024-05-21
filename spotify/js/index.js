@@ -13,9 +13,11 @@
     };
     
     
-    fetch('https://spotify23.p.rapidapi.com/albums/?ids=1FZKIm3JVDCxTchXDo5jOV', options)
+    fetch('https://spotify23.p.rapidapi.com/albums/?ids=5r36AJ6VOJtp00oxSkBZ5h', options)
         .then(response => response.json())
         .then(response => {
+
+            console.log(response);
             nombreArtista.innerHTML = response.albums[0].artists[0].name;
             nombreAlbum.innerHTML = response.albums[0].name;
             fotoArtista.src = response.albums[0].images[0].url;

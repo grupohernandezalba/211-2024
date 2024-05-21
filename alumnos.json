@@ -50,8 +50,8 @@
     {
         "nombre" : "Josafat Francisco",
         "apellidos" : "Aguirre Saldaña",
-        "participaciones" : 1,
-         "practicas" : 0,
+        "participaciones" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/josafat.png",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -146,7 +146,7 @@
     {
         "nombre" : "Josué Javier",
         "apellidos" : "Ayala Torres",
-        "participaciones" : 0,
+        "participaciones" : 1,
          "practicas" : 0,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Team y torner (Frone-Playeras)"
@@ -170,7 +170,7 @@
     {
         "nombre" : "Joaquín Alejandro",
         "apellidos" : "Valois Ruiz",
-        "participaciones" : 0,
+        "participaciones" : 1,
          "practicas" : 0,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "Lourve collection (Joyería)"
@@ -178,8 +178,8 @@
     {
         "nombre" : "Fernanda Estefania",
         "apellidos" : "Ballesteros Moreno",
-        "participaciones" : 1,
-         "practicas" : 0,
+        "participaciones" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/fernanda.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
@@ -235,7 +235,7 @@
         "nombre" : "Abraham",
         "apellidos" : "Rodríguez Contreras",
         "participaciones" : 0,
-         "practicas" : 0,
+         "practicas" : 1,
         "foto" : "imagenes/abraham.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
