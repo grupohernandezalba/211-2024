@@ -83,7 +83,7 @@
         "nombre" : "Hector",
         "apellidos" : "Adrian Zaragoza",
         "participaciones" : 0,
-         "practicas" : 2,
+         "practicas" : 4,
         "foto" : "imagenes/hector.png",
         "equipo" : "GitArmadores (COD/Odontología Dental)"
     },
@@ -115,7 +115,7 @@
         "nombre" : "Axel Yael",
         "apellidos" : "Silva Gonzalez",
         "participaciones" : 0,
-         "practicas" : 2,
+         "practicas" : 4,
         "foto" : "imagenes/axel-yael.webp",
         "equipo" : "Team y torner (Frone-Playeras)"
     },
@@ -123,7 +123,7 @@
         "nombre" : "Adrian",
         "apellidos" : "Martinez Hernandez",
         "participaciones" : 0,
-         "practicas" : 2,
+         "practicas" : 4,
         "foto" : "imagenes/adrian.png",
         "equipo" : "Team y torner (Frone-Playeras)"
     },
@@ -235,7 +235,7 @@
         "nombre" : "Abraham",
         "apellidos" : "Rodríguez Contreras",
         "participaciones" : 0,
-         "practicas" : 3,
+         "practicas" : 5,
         "foto" : "imagenes/abraham.png",
         "equipo" : "GODJO, (Reproi - Aire acondicionado)"
     },
