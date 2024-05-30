@@ -1,0 +1,9 @@
+Fuente:  https://blog.prosite.dev/api-rest-con-nodejs-express-y-mysql/
+
+Crear archivo .env
+Instalar dotenv
+npm i dotenv 
+Instalar mysql
+npm i mysql
+Instalar CORS
+npm i cors

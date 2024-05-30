@@ -61,7 +61,8 @@
 
     function obtieneProductos() {
         //Promise o Promesa 
-        fetch('https://fakestoreapi.com/products/')
+        //fetch('https://fakestoreapi.com/products/')
+        fetch('http://localhost:3000/productos')
             .then(res=>res.json())
             .then( productosObtenidos => {
                 console.log("Productos obtenidos", productosObtenidos);

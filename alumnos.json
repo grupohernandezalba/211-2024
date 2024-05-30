@@ -43,7 +43,7 @@
         "nombre" : "Mariana",
         "apellidos" : "Ortiz Zermeño",
         "participaciones" : 0,
-         "practicas" : 6,
+         "practicas" : 7,
         "foto" : "imagenes/mariana.webp",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -51,7 +51,7 @@
         "nombre" : "Josafat Francisco",
         "apellidos" : "Aguirre Saldaña",
         "participaciones" : 0,
-         "practicas" : 5,
+         "practicas" : 6,
         "foto" : "imagenes/josafat.png",
         "equipo" : "Los indestructibles, (Mariscos El Potente)"
     },
@@ -179,7 +179,7 @@
         "nombre" : "Fernanda Estefania",
         "apellidos" : "Ballesteros Moreno",
         "participaciones" : 0,
-         "practicas" : 7,
+         "practicas" : 8,   
         "foto" : "imagenes/fernanda.webp",
         "equipo" : "Lourve collection (Joyería)"
     },
